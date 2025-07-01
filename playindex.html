@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Dalgona Game</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="playstyle.css"/>
+</head>
+<body>
+<body>
+  <audio id="bgAudio" src="song1.mp3" autoplay loop></audio>
+
+  <!-- Title -->
+  <h1>Dalgona Challenge</h1>
+  <p>Trace the shape carefully. When you release the mouse, your fate will be decided.</p>
+
+  <!-- Game Canvas -->
+  <canvas id="gameCanvas" width="350" height="350"></canvas>
+
+  <!-- Result Text -->
+  <div id="result"></div>
+
+  <!-- Exit Button (initially hidden) -->
+  <button id="exitBtn" style="display: none;">Exit Game</button>
+
+  <!-- JS -->
+  <script src="playscript.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,95 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  background-size: cover;
+  color: white;
+  font-family: 'Orbitron', sans-serif;
+  text-align: center;
+}
+
+
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url('img3.jpg') no-repeat center center fixed;
+  background-size: cover;
+  filter: blur(2px);
+  z-index: -1;
+}
+
+
+nav ul {
+  list-style: none;
+  padding: 10px;
+}
+nav ul li {
+  display: inline-block;
+  margin: 0 15px;
+}
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+nav ul li a:hover {
+  color: #E50914;
+}
+h1 {
+  color: yellow;
+  margin: 20px 0;
+  display: block;
+  font-size: 2em;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  unicode-bidi: isolate;
+} 
+
+
+p {
+  margin: 10px 0 20px;
+}
+
+canvas {
+  border: 4px solid #E50914;
+  background: #f2c078;
+  cursor: crosshair;
+  opacity: 0;
+  transform: translateY(100px);
+  animation: flyIn 1s ease-out forwards;
+  animation-delay: 0.5s;
+}
+
+@keyframes flyIn {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+#result {
+  margin-top: 20px;
+  font-size: 1.5rem;
+}
+
+#exitBtn {
+  margin-top: 20px;
+  padding: 12px 24px;
+  font-size: 1rem;
+  background-color: #E50914;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  display: block;
+}
+
+#exitBtn:hover {
+  background-color: #b00610;
+}
