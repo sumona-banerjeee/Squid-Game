@@ -5,6 +5,11 @@
 
 This is a demo website inspired by the *Squid Game* series. It recreates the thrill of the Dalgona challenge in a web experience where users can choose a shape and try their luck in Round 1.
 
+## 🙏 Special Thanks
+This is a fan-based project created for educational and non-commercial purposes only.
+All rights to images, audio, and other assets belong to Netflix and the creators of Squid Game.
+Special thanks to Netflix and Squid Game for the inspiration, photos, and soundtrack.
+
 ## 🎮 Features
 
 - **Dalgona Game**
